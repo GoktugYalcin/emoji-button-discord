@@ -1,0 +1,35 @@
+.emojiContainer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.emojiButton{
+  user-select: none;
+  cursor: pointer;
+  padding: 3px;
+  transition: all .2s ease-in-out;
+}
+
+.emojiButtonDisabled{
+  filter: grayscale(1);
+  user-select: none;
+  cursor: unset;
+  pointer-events: none;
+}
+
+.emojiButton:hover {
+  transform: scale(1.2);
+  transition: all .2s ease-in-out;
+  filter: grayscale(1);
+}
+
+.emojiText {
+  margin-left: 5px;
+  font-size: 25px;
+  color: #BC9EC1;
+}
