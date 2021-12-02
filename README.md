@@ -10,12 +10,20 @@
 npm install --save emoji-button-discord
 ```
 
+## Props
+- **disabled** - This state activates/disables disable state.
+- **customEmoji** - A emoji can initialize as static.
+- **customClass** - Custom CSS class can be given.
+- **onClick** - onClick event handler.
+- **text** - A text or prompt on right side of emoji button.
+- **customContainer** - Custom CSS class for wrapper container.
+
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
 
-import EmojiButton from 'emoji-button'
+import EmojiButton from 'emoji-button-discord'
 import 'emoji-button/dist/index.css'
 
 class Example extends Component {
